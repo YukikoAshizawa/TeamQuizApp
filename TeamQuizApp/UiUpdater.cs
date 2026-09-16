@@ -16,7 +16,7 @@ namespace TeamQuizApp
             _buttons = buttons;
             _log = log;
         }
-        public void ShowQuestion(Questions q)
+        public void ShowQuestion(Question q)
         {
             _questionLabel.Text = q.Text;
             for (int i = 0; i < 4; i++)
