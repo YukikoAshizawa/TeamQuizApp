@@ -39,7 +39,7 @@
             // questionLabel
             // 
             questionLabel.AutoSize = true;
-            questionLabel.Location = new Point(109, 50);
+            questionLabel.Location = new Point(109, 51);
             questionLabel.Name = "questionLabel";
             questionLabel.Size = new Size(50, 20);
             questionLabel.TabIndex = 0;
@@ -88,9 +88,9 @@
             // logListBox
             // 
             logListBox.FormattingEnabled = true;
-            logListBox.Location = new Point(353, 58);
+            logListBox.Location = new Point(353, 118);
             logListBox.Name = "logListBox";
-            logListBox.Size = new Size(261, 304);
+            logListBox.Size = new Size(261, 244);
             logListBox.TabIndex = 5;
             // 
             // Form1
