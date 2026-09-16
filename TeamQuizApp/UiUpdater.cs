@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Windows.Forms;
 
 namespace TeamQuizApp
 {
@@ -16,7 +14,7 @@ namespace TeamQuizApp
             _buttons = buttons;
             _log = log;
         }
-        public void ShowQuestion(Questions q)
+        public void ShowQuestion(Question q)
         {
             _questionLabel.Text = q.Text;
             for (int i = 0; i < 4; i++)
